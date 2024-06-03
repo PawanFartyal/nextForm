@@ -1,0 +1,27 @@
+.detailContainer {
+    width: 80%;
+    margin:auto;
+    position: relative;
+}
+.col {
+    padding: 1rem;
+}
+.image {
+    position: absolute;
+    right: 0%;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+.image img {
+    height: 200px;
+    width: 200px;
+}
+@media (max-width:912px) {
+  
+    .image {
+        position: relative;
+        transform: translate(0,0);
+        display: flex;
+        /* justify-content: center; */
+    }
+}

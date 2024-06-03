@@ -1,0 +1,20 @@
+.formContainer {
+    width: 70%;
+    margin:1rem auto;
+    padding: 1.5rem;
+    box-shadow:rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 1rem;
+    background-color: white;
+}
+.formContainer h1 {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.submitBtn {
+    padding-top: 2rem;
+}
+@media (max-width:576px) {
+    .formContainer {
+        width: 100%;
+    }
+}
